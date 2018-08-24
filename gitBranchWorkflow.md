@@ -1,4 +1,4 @@
-﻿# git branch workflowㅑ
+﻿# git branch workflow
 ![branches](images/gitBranchWorkflow/gitbranch01.png)
 ### 모든 branch를 운용할 경우
 ![use all branches](images/gitBranchWorkflow/gitbranch02.png)
@@ -77,7 +77,7 @@
 <pre>
  git add . 또는 git add 파일
  확인 : git status
- git commit -m “개발 내용”
+ git commit -m “개발내용”
 </pre>
 
 4. 개발후 pull request를 위해 push
@@ -90,5 +90,5 @@
 
 # reference
 > * Vincent의 branching model
->   * “feature ? develop ? release ? hotfixes ? master” 단계로 branch를 나눠서 코드를 관리하는 전략
+>   * “feature - develop - release - hotfixes - master” 단계로 branch를 나눠서 코드를 관리하는 전략
 > * https://github.com/gmlwjd9405/git-collaboration
