@@ -1,7 +1,7 @@
-﻿# git branch workflow
-![alt text](https://github.com/howllab/doc/images/gitBranchWorkflow/gitbranch01.png)
+﻿# git branch workflowㅑ
+![branches](images/gitBranchWorkflow/gitbranch01.png)
 ### 모든 branch를 운용할 경우
-![alt text](https://github.com/howllab/doc/images/gitBranchWorkflow/gitbranch02.png)
+![use all branches](images/gitBranchWorkflow/gitbranch02.png)
 
 * 최초 github에 repo 생성. ( 기본 master branch ), develop branch 생성.
 
@@ -34,9 +34,9 @@
 
 4. 개발후 pull request를 위해 push
 <pre>
- Feature : git push origin develop
- Release : git push origin develop
- Hotfix : git push origin master
+ Feature : git push origin feature/기능
+ Release : git push origin release-버전
+ Hotfix : git push origin hotfix-버전
 </pre>
 
 5. PR이 완료되면 merge 한다. ( GUI 이용 )
@@ -49,7 +49,7 @@
 </pre>
 
 ### develop branch만 운용할 경우
-![alt text](https://github.com/howllab/doc/images/gitBranchWorkflow/gitbranch03.png)
+![use develop branch](images/gitBranchWorkflow/gitbranch03.png)
 
 * 최초 github에 repo 생성. ( 기본 master branch ), develop branch 생성.
 
@@ -82,7 +82,7 @@
 
 4. 개발후 pull request를 위해 push
 <pre>
- git push origin master
+ git push origin develop
 </pre>
 
 5. PR이 완료되면 merge 한다. ( GUI 이용 )
